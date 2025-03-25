@@ -1,7 +1,7 @@
 {
   "name": "@wwzzyying/kuromoji",
   "description": "Forked version of kuromoji with better compatibility for browsers",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "author": "wwzzyying",
   "browser": {
     "./src/loader/NodeDictionaryLoader.js": "./src/loader/BrowserDictionaryLoader.js"
