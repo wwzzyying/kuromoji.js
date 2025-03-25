@@ -11,8 +11,7 @@ kuromoji.js
 JavaScript implementation of Japanese morphological analyzer.
 This is a pure JavaScript porting of [Kuromoji](https://www.atilika.com/ja/kuromoji/).
 
-You can see how kuromoji.js works in [demo site](https://takuyaa.github.io/kuromoji.js/demo/tokenize.html).
-
+You can see how kuromoji.js works in [jagrammar](https://www.jagrammar.com/).
 
 Feature
 ---------
