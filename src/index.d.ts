@@ -7,7 +7,7 @@
 
 // dict/ConnectionCosts.js
 
-declare module "@sglkc/kuromoji" {
+declare module "@wwzzyying/kuromoji" {
   export interface ConnectionCosts {
     buffer: Int16Array;
     put(forward_id: number, backward_id: number, cost: number): void;
