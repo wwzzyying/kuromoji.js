@@ -14,6 +14,22 @@ This is a pure JavaScript porting of [Kuromoji](https://www.atilika.com/ja/kurom
 You can see how kuromoji.js works in [demo site](https://takuyaa.github.io/kuromoji.js/demo/tokenize.html).
 
 
+Feature
+---------
+
+### IndexedDB Caching System
+The dictionary loader implements an IndexedDB-based caching system for improved performance:
+
+- **Automatic Caching**: Decompressed dictionary data is automatically cached in IndexedDB after first load
+- **Fast Loading**: Subsequent requests fetch data from local cache instead of network
+- **Fallback Mechanism**: Gracefully falls back to network loading if IndexedDB is unavailable
+- **Cache Structure**:
+  - Database Name: `kuromojiDB`
+  - Store Name: `dictionary`
+  - Key: Dictionary URL
+  - Value: Decompressed data with timestamp
+
+
 Directory
 ---------
 
